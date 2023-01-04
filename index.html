@@ -66,6 +66,7 @@
                   <li><a class="dropdown-item" href="#concatenation">Concatenation</a></li>
                   <li><a class="dropdown-item" href="#datatypes">Datatypes</a></li>
                   <li><a class="dropdown-item" href="#functions">Functions</a></li>
+                  <li><a class="dropdown-item" href="#conditionals">Conditionals</a></li>
                   <li><hr class="dropdown-divider"></li>
                   <li><a class="dropdown-item" href="#">Something else here</a></li>
                 </ul>
@@ -194,43 +195,6 @@
     </div>  
    </div>
 
-   <div id="datatypes" class=" mt-3">
-    <h2>Datatypes</h2>
-    <h3 class="text-success">There are total seven types of data in js but we are going to focus on two.</h3>
-    <ol>
-      <li class="h4 text-dark">Strings</li>
-      <li class="h4 text-dark">Numbers</li>
-    </ol>
-
-    <div class="row">
-      <div class="col-lg-8">
-        <picture>
-          <img class="img-fluid w-100  mt-2" src="images/Screenshot_4.jpg" alt="">
-        </picture>
-      </div>
-      <div class="col-lg-4 text-center my-auto ">
-        <div class="java text-danger mt-2 ">
-          <h5 class="text-center text-success">Code_Output:</h5>
-          <script>
-            var firstname = "Farhan"
-            var lastname = "Ferdous"
-            var fullname = firstname + " " + lastname;
-
-            var a = 1;
-            var b = 2;
-            var c = a + b;
-      
-            document.write("<h3>"+fullname+"</h3>");
-            document.write("<h3>"+fullname+"</h3>");
-            document.write("<h3>"+fullname+"</h3>");
-            document.write("<h3>"+c+"</h3>");
-           
-          </script>
-        </div>
-      </div>
-    </div>  
-   </div>
-
    <div id="functions" class=" mt-3">
     <h2>Functions</h2>
     <h3 class="text-success">In programming, a function is a named section of a program that performs specific task.</h3>
@@ -253,7 +217,9 @@
         <div class="java text-danger mt-2 h4 ">
           <h5 class="text-center text-success">Code_Output:</h5>
           <script>
-          var username = prompt("What is your name?");
+          // var username = prompt("What is your name?");
+
+          var username = "Farhan";
 
             document.write(username);
             document.write("<h1> Hello "+username+" !</h1>")
@@ -261,7 +227,34 @@
           </script>
         </div>
       </div>
+    </div>  
+   </div>
 
+   <div id="conditionals" class=" mt-3">
+    <h2>Conditionals</h2>
+    <h3 class="text-success">Often a computer program must make choices on which way to proceed. Conditional statements are features of a programming language which perform different computations or actions depending on whether a specified boolean condition evaluates to true or false.</h3>
+    <h4 class="text-dark">Conditionals are in every programming language. They allow for different scenarios so that one piece of code can result in several different, customized results. </h4>
+
+    <div class="row">
+      <div class="col-lg-6">
+        <picture>
+          <img class="img-fluid w-100  mt-2" src="images/Screenshot_7.jpg" alt="">
+        </picture>
+      </div>
+      <div class="col-lg-6 text-center my-auto">
+        <div class="java text-danger mt-2 h4 ">
+          <h5 class="text-center text-success">Code_Output:</h5>
+          <script>
+          var username = prompt("What is your name?");
+           if (username==="Tanvir"){
+            document.write("<h1>Hello, " + username + " won a car!</h1>");
+           }
+           else{
+            document.write("<h1>Hello, " + username + " !</h1>");
+           }
+          </script>
+        </div>
+      </div>
     </div>  
    </div>
 
