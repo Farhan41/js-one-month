@@ -67,8 +67,9 @@
                   <li><a class="dropdown-item" href="#datatypes">Datatypes</a></li>
                   <li><a class="dropdown-item" href="#functions">Functions</a></li>
                   <li><a class="dropdown-item" href="#conditionals">Conditionals</a></li>
+                  <li><a class="dropdown-item" href="#arreys">Arreys</a></li>
                   <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  <li><a class="dropdown-item" href="https://innovate-bootstrap-project-one.netlify.app">Innovate Bootstrap Project</a></li>
                 </ul>
               </li>
             </ul>
@@ -252,13 +253,53 @@
         <div class="java text-danger mt-2 h4 ">
           <h5 class="text-center text-success">Code_Output:</h5>
           <script>
-          var username = prompt("What is your name?");
+          // var username = prompt("What is your name?");
+
+            var username = "farhan";
+
            if (username==="Tanvir"){
             document.write("<h1>Hello, " + username + " won a car!</h1>");
            }
            else{
             document.write("<h1>Hello, " + username + " !</h1>");
            }
+          </script>
+        </div>
+      </div>
+    </div>  
+   </div>
+
+   <div id="arrays" class=" mt-3">
+    <h2>Arrays</h2>
+    <h3 class="text-success">An array is a data structure used to store multiple values in a single variable. In some programming languages, arrays can only hold values of the same type, but not in JavaScript. In JavaScript, you can have values of different types in the same array.</h3>
+    
+
+    <div class="row">
+      <div class="col-lg-6">
+        <picture>
+          <img class="img-fluid w-100  mt-2" src="images/Screenshot_8.jpg" alt="">
+        </picture>
+      </div>
+      <div class="col-lg-6 text-center my-auto">
+        <div class="java text-danger mt-2 h4 ">
+          <h5 class="text-center text-success">Code_Output:</h5>
+          <script>
+            var username = prompt("what is your name?");
+            var car = new Array ("BMW", "Saab", "Maserati");
+
+            if (username==="Farhan"){
+              document.write("<h1>Hello " + username +" you won a " + car + " !</h1>");
+            }
+            else{
+              document.write("<h1>Hello"+username+"!</h1>");
+            }
+
+            if (username==="Tanvir"){
+              document.write("<h1>Hello " + username +" you won a " + car[0] + " !</h1>");
+            }
+            else{
+              document.write("<h1>Hello"+username+"!</h1>");
+            }
           </script>
         </div>
       </div>
