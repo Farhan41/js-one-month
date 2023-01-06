@@ -67,9 +67,10 @@
                   <li><a class="dropdown-item" href="#datatypes">Datatypes</a></li>
                   <li><a class="dropdown-item" href="#functions">Functions</a></li>
                   <li><a class="dropdown-item" href="#conditionals">Conditionals</a></li>
-                  <li><a class="dropdown-item" href="#arreys">Arreys</a></li>
+                  <li><a class="dropdown-item" href="#arrays">Arrays</a></li>
+                  <li><a class="dropdown-item" href="#debugging">Debugging</a></li>
                   <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="https://innovate-bootstrap-project-one.netlify.app">Innovate Bootstrap Project</a></li>
+                  <li><a class="dropdown-item" href="https://innovate-bootstrap-project-one.netlify.app" target="_blank">Innovate Bootstrap Project</a></li>
                 </ul>
               </li>
             </ul>
@@ -83,7 +84,7 @@
     <div class="container">
       <div class="innovate_project bg-success text-center my-3">
       <h2 class="text-warning pt-3">Hey, Currently I'm Working on this Project!!!</h2>
-      <a href="https://innovate-bootstrap-project-one.netlify.app" class="btn btn-warning mb-2">View Project</a>
+      <a href="https://innovate-bootstrap-project-one.netlify.app" target="_blank" class="btn btn-warning mb-2">View Project</a>
       </div>
     </div>
    </section>
@@ -272,8 +273,6 @@
    <div id="arrays" class=" mt-3">
     <h2>Arrays</h2>
     <h3 class="text-success">An array is a data structure used to store multiple values in a single variable. In some programming languages, arrays can only hold values of the same type, but not in JavaScript. In JavaScript, you can have values of different types in the same array.</h3>
-    
-
     <div class="row">
       <div class="col-lg-6">
         <picture>
@@ -300,6 +299,41 @@
             else{
               document.write("<h1>Hello"+username+"!</h1>");
             }
+          </script>
+        </div>
+      </div>
+    </div>  
+   </div>
+
+   <div id="debugging" class=" mt-3">
+    <h2>Debugging</h2>
+    <h3 class="text-success">Debugging is about identifying and problem solving issues in your code so your software runs the way you intend it.</h3>
+    <div class="row">
+      <div class="col-lg-4">
+        <picture>
+          <img class="img-fluid w-100  mt-2" src="images/Screenshot_9.jpg" alt="">
+        </picture>
+      </div>
+      <div class="col-lg-4">
+        <picture>
+          <img class="img-fluid w-100  mt-2" src="images/console1.jpg" alt="">
+        </picture>
+      </div>
+      <div class="col-lg-4 text-center my-auto">
+        <div class="java text-danger mt-2 h4 ">
+          <h5 class="text-center text-success">Code_Output:</h5>
+          <script>
+            var company_name = prompt("What is the name of your company?");
+            var car = new Array ("BMW", "Saab", "Maserati");
+            console.log (car);
+
+            if  (company_name === "Astrattic"){
+              document.write("<h1>May Allah Bless Our " + company_name + "!!!</h1>");
+            }
+            else{
+              document.write("<h1> Assalau alaikum you won a " + car[2] + "!!!</h1>");
+            }
+
           </script>
         </div>
       </div>
