@@ -70,6 +70,8 @@
                   <li><a class="dropdown-item" href="#arrays">Arrays</a></li>
                   <li><a class="dropdown-item" href="#debugging">Debugging</a></li>
                   <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#happy">Happy Hour App</a></li>
+                  <li><hr class="dropdown-divider"></li>
                   <li><a class="dropdown-item" href="https://innovate-bootstrap-project-one.netlify.app" target="_blank">Innovate Bootstrap Project</a></li>
                 </ul>
               </li>
@@ -333,6 +335,58 @@
             else{
               document.write("<h1> Assalau alaikum you won a " + car[2] + "!!!</h1>");
             }
+
+          </script>
+        </div>
+      </div>
+    </div>  
+   </div>
+
+   
+   <div id="happy" class=" mt-3">
+    <h2>Happy Hour App</h2>
+
+    <div class="row">
+      <div class="col-lg-6">
+        <picture>
+          <img class="img-fluid w-100  mt-2" src="images/Screenshot_10.jpg" alt="">
+        </picture>
+      </div>
+  
+      <div class="col-lg-6  text-center my-auto">
+        <div class="java_happy text-danger mt-2 h4 bg-warning ">
+          <h5 class="text-center text-success">Code_Output:</h5>
+          <script>
+
+            // Our list of Bars
+        var bars = [
+            
+            'Onemonth',
+            'Home Sweet Home',
+            'Union Pool',
+            'Masjid'
+        ];
+
+        // Our list of friends
+        var friends = [
+            
+            'Casey',
+            'that girl you forgot to text back',
+            'kayne west',
+            'Farhan'
+        ];
+
+        // var randomNumber = Math.floor(Math.random()*bars.length);
+         // var barname = bars[randomNumber];
+        // var barname = bars[3];
+
+        var randomNumber = Math.floor(Math.random()*bars.length);
+        var barname = bars[randomNumber];
+        var friendname = friends[randomNumber];
+
+        
+
+        document.write("How about you go to <strong>" + barname + "</strong> with <strong>" + friendname + "?</strong>");
 
           </script>
         </div>
